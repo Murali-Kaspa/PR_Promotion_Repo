@@ -28,7 +28,7 @@ pipeline {
                         isValidPromotion = true
                     } else if (sourceBranch == 'DEV' && targetBranch == 'SIT') {
                         isValidPromotion = true
-                    } else if (sourceBranch == 'SAT' && targetBranch == 'UAT') {
+                    } else if (sourceBranch == 'SIT' && targetBranch == 'UAT') {
                         isValidPromotion = true
                     } else if (sourceBranch == 'UAT' && targetBranch == 'SVP') {
                         isValidPromotion = true
